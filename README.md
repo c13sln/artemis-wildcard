@@ -1,4 +1,10 @@
 # artemis-wildcard
+
+## Bakgrund 
+### Topic Hierarchy
+Apache ActiveMQ Artemis supports topic hierarchies. With a topic hierarchy you can register a subscriber with a wild-card and that     subscriber will receive any messages sent to an address that matches the wild card.
+
+### Specifikation
 Exempel på en arkitektur av PUBSUBs som filtrerar sin läsning med wildcard.
 
 Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Docker och JMS.
