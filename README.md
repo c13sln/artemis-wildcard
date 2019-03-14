@@ -15,7 +15,8 @@ Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Docker och JMS.
    Starta Artemis-brokern lokalt, genom **docker run -it  -e ARTEMIS_USERNAME=myuser -e ARTEMIS_PASSWORD=password --name activemq --rm   -    p 8161:8161   -p 61616:61616   vromero/activemq-artemis**. 
   1. 
      När brokern har tillåtits starta upp, kan man komma åt ett webbgränssnitt på *localhost:8161/console*. Här kan man övervaka händelser        och systemhälsa för brokern.
-2. Template
+2. Bygg projektet: **mvn clean install**
+3. Kör thorntail-servern: **mvn thorntail:run**
 
 ### Externa resurser
 
