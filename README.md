@@ -1,7 +1,7 @@
 # artemis-wildcard
 
 ## Bakgrund 
-### Topic Hierarchy
+### [Topic Hierarchy](https://activemq.apache.org/artemis/docs/1.0.0/wildcard-syntax.html)
 Apache ActiveMQ Artemis supports topic hierarchies. With a topic hierarchy you can register a subscriber with a wild-card and that     subscriber will receive any messages sent to an address that matches the wild card.
 
 ### Specifikation
