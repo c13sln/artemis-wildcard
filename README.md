@@ -7,7 +7,7 @@ Apache ActiveMQ Artemis supports topic hierarchies. With a topic hierarchy you c
 ### Specifikation
 Exempel på en arkitektur av PUBSUBs som filtrerar sin läsning med wildcard.
 
-Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Docker och JMS.
+Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Maven, Docker och JMS.
 
 ## Köra programmet
 
