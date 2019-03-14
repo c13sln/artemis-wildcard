@@ -1,0 +1,31 @@
+swarm:
+  network:
+    socket-binding-groups:
+      standard-sockets:
+        outbound-socket-bindings:
+          lokal-broker-socket:
+            remote-host: 0.0.0.0
+            remote-port: 61616
+  messaging-activemq:
+    servers:
+      default:
+#        jms-queues:
+#          nyheter: {}
+#          nyheter.globala: {}
+#          nyheter.globala.politik: {}
+#          nyheter.globala.sport: {}
+#          nyheter.lokala.politik: {}
+#          nyheter.lokola.sport: {}
+        pooled-connection-factories:
+          lokal-mq:
+            user: myuser
+            password: password
+            client-id: user
+            statistics-enabled: true
+            entries:
+              - java:/jms/lokal-mq
+            connectors:
+              - lokal-mq-connector
+        remote-connectors:
+          lokal-mq-connector:
+            socket-binding: lokal-broker-socket
