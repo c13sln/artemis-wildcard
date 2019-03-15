@@ -4,6 +4,7 @@ swarm:
       standard-sockets:
         outbound-socket-bindings:
           lokal-broker-socket:
+            # remote-host: localhost
             remote-host: 0.0.0.0
             remote-port: 61616
   messaging-activemq:
