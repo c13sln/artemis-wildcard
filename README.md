@@ -1,4 +1,5 @@
 # artemis-wildcard
+Ett program som producerar nyheter på lokal- och global nivå. Med en consumer som premenurerar på båda med hjälp av wildcard.
 
 ## Bakgrund 
 ### [Topic Hierarchy](https://activemq.apache.org/artemis/docs/1.0.0/wildcard-syntax.html)
@@ -7,7 +8,7 @@ Apache ActiveMQ Artemis supports topic hierarchies. With a topic hierarchy you c
 ### Specifikation
 Exempel på en arkitektur av PUBSUBs som filtrerar sin läsning med wildcard.
 
-Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Maven, Docker och JMS.
+Teknik som kommer användas är Thorntail, ActiveMQ Artemis, Maven och JMS.
 
 ## Köra programmet
 
