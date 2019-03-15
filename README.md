@@ -1,4 +1,4 @@
-# artemis-wildcard
+# Artemis-Wildcard
 Ett program som producerar nyheter på lokal- och global nivå. Med en consumer som premenurerar på båda med hjälp av wildcard.
 
 ## Bakgrund 
